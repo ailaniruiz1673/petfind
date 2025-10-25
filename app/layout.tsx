@@ -8,9 +8,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space" })
 
 export const metadata: Metadata = {
-  title: "PawGuard - Protecting Dogs Through Technology",
+  title: "PawGuard - Protecting Pets Through Technology",
   description:
-    "Digital platform for dog welfare, tracking wanted dogs, sharing veterinary news, and advancing pet safety technology",
+    "Digital platform for pets welfare, tracking wanted pets, sharing veterinary news, and advancing pet safety technology",
   generator: "v0.app",
 }
 

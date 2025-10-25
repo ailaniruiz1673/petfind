@@ -12,7 +12,7 @@ export function Footer() {
               <span>PetFind</span>
             </Link>
             <p className="text-sm text-muted-foreground text-pretty leading-relaxed">
-              Protecting dogs through technology and community collaboration
+              Protecting pets through technology and community collaboration
             </p>
           </div>
 
@@ -47,7 +47,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Report a Dog
+                  Report a Pet
                 </Link>
               </li>
               <li>
