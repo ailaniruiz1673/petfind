@@ -11,7 +11,7 @@ export default function DashboardPage() {
         <div className="mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Dashboard</h1>
           <p className="text-lg text-muted-foreground text-pretty">
-            Stay updated with wanted dogs and the latest veterinary news around you.
+            Stay updated with wanted dogs and the latest veterinary news.
           </p>
         </div>
         <WantedDogs />

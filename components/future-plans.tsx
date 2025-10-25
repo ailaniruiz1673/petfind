@@ -3,7 +3,7 @@ import { Car, Cpu, Radio } from "lucide-react"
 
 export function FuturePlans() {
   return (
-    <section id="future" className="py-24">
+    <section className="py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">Future Plans</h2>
@@ -17,10 +17,9 @@ export function FuturePlans() {
             <div className="h-16 w-16 rounded-xl bg-primary/10 flex items-center justify-center mb-6 mx-auto">
               <Car className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-2xl font-semibold mb-4 text-center">LiDAR Safety</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-center">Build a Community</h3>
             <p className="text-muted-foreground text-center text-pretty leading-relaxed">
-              We are searching for LiDAR lasers for your cars to reduce accidents that happen every day with animals on
-              the road
+              We are searching for a way to connect all PetFind users in a more social way, with things like care tips and fun anecdotes to share.
             </p>
           </Card>
 
@@ -28,9 +27,9 @@ export function FuturePlans() {
             <div className="h-16 w-16 rounded-xl bg-primary/10 flex items-center justify-center mb-6 mx-auto">
               <Cpu className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-2xl font-semibold mb-4 text-center">Smart Care</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-center">An App</h3>
             <p className="text-muted-foreground text-center text-pretty leading-relaxed">
-              Developing advanced technology to take care of dogs, cats, and people through automated monitoring systems
+              Developing an app, coming soon on App Store and Play Store...
             </p>
           </Card>
 

@@ -9,10 +9,10 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2 font-bold text-xl mb-4">
               <PawPrint className="h-6 w-6 text-primary" />
-              <span>PetFind</span>
+              <span>Pawthfinder</span>
             </Link>
             <p className="text-sm text-muted-foreground text-pretty leading-relaxed">
-              Protecting pets through technology and community collaboration
+              Protecting dogs through technology and community collaboration
             </p>
           </div>
 
@@ -35,7 +35,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#future" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/future-plans" className="text-muted-foreground hover:text-primary transition-colors">
                   Future Plans
                 </Link>
               </li>
@@ -46,23 +46,13 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Report a Pet
+                <Link href="/dashboard" className="text-muted-foreground hover:text-primary transition-colors">
+                  Report a Dog
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Volunteer
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/donate" className="text-muted-foreground hover:text-primary transition-colors">
                   Donate
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  FAQ
                 </Link>
               </li>
             </ul>
@@ -73,7 +63,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>info@petfind.org</span>
+                <span>info@pawthfinder.org</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="h-4 w-4" />
@@ -92,7 +82,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© 2025 PetFind. All rights reserved. Built with care for animals everywhere.</p>
+          <p>© 2025 Pawthfinder. All rights reserved. Built with care for animals everywhere.</p>
         </div>
       </div>
     </footer>

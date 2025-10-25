@@ -31,7 +31,7 @@ export function Navigation() {
             <Link href="#future" className="text-sm font-medium hover:text-primary transition-colors">
               Future Plans
             </Link>
-            <Link href="#about" className="text-sm font-medium hover:text-primary transition-colors">
+            <Link href="/about" className="text-sm font-medium hover:text-primary transition-colors">
               About
             </Link>
             <Button size="sm">Get Involved</Button>
@@ -75,7 +75,7 @@ export function Navigation() {
               Future Plans
             </Link>
             <Link
-              href="#about"
+              href="/about"
               className="block text-sm font-medium hover:text-primary transition-colors"
               onClick={() => setIsOpen(false)}
             >
