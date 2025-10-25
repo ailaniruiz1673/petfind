@@ -14,7 +14,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
             <PawPrint className="h-6 w-6 text-primary" />
-            <span>PetFind</span>
+            <span>Pawthfinder</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -28,13 +28,15 @@ export function Navigation() {
             <Link href="#mission" className="text-sm font-medium hover:text-primary transition-colors">
               Mission
             </Link>
-            <Link href="#future" className="text-sm font-medium hover:text-primary transition-colors">
+            <Link href="/future-plans" className="text-sm font-medium hover:text-primary transition-colors">
               Future Plans
             </Link>
             <Link href="/about" className="text-sm font-medium hover:text-primary transition-colors">
               About
             </Link>
-            <Button size="sm">Get Involved</Button>
+            <Button size="sm" asChild>
+              <Link href="/donate">Support Us</Link>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -68,7 +70,7 @@ export function Navigation() {
               Mission
             </Link>
             <Link
-              href="#future"
+              href="/future-plans"
               className="block text-sm font-medium hover:text-primary transition-colors"
               onClick={() => setIsOpen(false)}
             >
@@ -81,7 +83,9 @@ export function Navigation() {
             >
               About
             </Link>
-            <Button className="w-full">Get Involved</Button>
+            <Button className="w-full" asChild>
+              <Link href="/donate">Support Us</Link>
+            </Button>
           </div>
         )}
       </div>
