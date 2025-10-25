@@ -1,5 +1,3 @@
-"use client"
-
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -46,7 +44,7 @@ export function WantedDogs() {
   }
 
   const handleSubmit = (dogId: number) => {
-    console.log(`Sighting reported for dog ${dogId}:`, comments[dogId])
+    console.log(Sighting reported for dog ${dogId}:, comments[dogId])
     setComments((prev) => ({ ...prev, [dogId]: "" }))
     setOpenCommentId(null)
   }
@@ -97,7 +95,7 @@ export function WantedDogs() {
               {openCommentId === dog.id ? (
                 <div className="space-y-3 pt-2">
                   <div className="flex items-center justify-between">
-                    <label htmlFor={`comment-${dog.id}`} className="text-sm font-medium">
+                    <label htmlFor={comment-${dog.id}} className="text-sm font-medium">
                       Where did you see {dog.name}? (please put your contact information)
                     </label>
                     <Button variant="ghost" size="sm" className="h-6 w-6 p-0" onClick={() => setOpenCommentId(null)}>
@@ -105,7 +103,7 @@ export function WantedDogs() {
                     </Button>
                   </div>
                   <textarea
-                    id={`comment-${dog.id}`}
+                    id={comment-${dog.id}}
                     placeholder="Please provide details about the location, time, and any other relevant information..."
                     value={comments[dog.id] || ""}
                     onChange={(e) => handleCommentChange(dog.id, e.target.value)}
